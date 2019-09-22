@@ -1,0 +1,168 @@
+.about-section {
+    font-family: helvetica;
+    font-size: 14pt;
+    height: 50%;
+    width: 100%;
+    margin: auto;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inconsolata", Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+.about-me {
+    display: inline-block;
+    float: left;
+    font-style: bold;
+    font-size: 24pt;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+}
+a.button {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+ 
+a.button:hover {
+    background-color: #fff;
+    color: #666666;
+}
+.container {
+    margin: 0 auto;
+}
+ 
+h1 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.container figcaption {
+    position: relative;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: black;
+}
+.container figure {
+    margin: 0;
+        position: relative;    
+    }
+    .container figure:hover img {
+        opacity: 0.25;
+        -webkit-transition: all .8s ease;
+        -moz-transition: all .8s ease;
+        transition: all .8s ease;
+    }
+     
+    .container figure:hover  figcaption{
+        opacity: 1;
+        -webkit-transition: all .8s ease;
+        -moz-transition: all .8s ease;
+        transition: all .8s ease;
+    }
+    .container figure img {
+        max-width: 100%;
+        display: block;
+        position: relative;
+    }
+.header {
+    background-color: white;
+    border-bottom-color: lightslategray;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    background-color: teal;
+    margin: 0px;
+    font-style: bold;
+    font-size: 24pt;
+    color: white;
+    padding: 24px;
+}
+.liz-border {
+    border-top: 1px solid lightslategray;
+    padding-top: 24px;
+}
+
+.portfolio-grid {
+    display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-grid-image {
+    margin: 12px;
+}
+.portfolio-image {
+    height: 200px; 
+    float: left;
+    justify-items: left;
+    width: 200px;
+    margin-left: 0px;
+    margin-right: 24px;
+}
+.project-game {
+    display: flex;
+    height: 150px;
+    padding: 6px;
+    width: 200px;
+}
+.project-hangman {
+    display: flex;
+    height: 150px;
+    padding: 6px;
+    width: 200px;
+}
+.project-rock {
+    display: flex;
+    height: 150px;
+    padding: 6px;
+    width: 200px;
+}
+.project-trivia {
+    display: flex;
+    height: 150px;
+    padding: 6px;
+    width: 200px;
+}
+.project-widget {
+    display: flex;
+    height: 150px;
+    padding: 6px;
+    width: 200px;
+}
+.section-content {
+    background-color: white;
+    padding: 24px;
+}
+.section-main {
+    align-items: center;
+    background-color: lightgray;
+    display: flex;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer {
+    background-color: slategray;
+    border-top: 8px solid #4aaaa5;
+    display: flex;
+    text-decoration-color: white;
+    font-family: helvetica;
+    font-size: 10pt;
+    justify-content: center;
+}
